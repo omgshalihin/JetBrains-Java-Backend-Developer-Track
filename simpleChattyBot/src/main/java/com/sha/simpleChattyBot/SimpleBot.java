@@ -60,12 +60,12 @@ public class SimpleBot {
             System.out.printf("%s. %s\n", i + 1, questions.get(i + 1));
         }
 
-        int correctAnswer = 2;
-        int userAnswer = scanner.nextInt();
+        int correctOption = 2;
+        int userOption = scanner.nextInt();
 
-        while (userAnswer != correctAnswer) {
+        while (userOption != correctOption) {
             System.out.println("Please, try again.");
-            userAnswer = scanner.nextInt();
+            userOption = scanner.nextInt();
         }
     }
 
